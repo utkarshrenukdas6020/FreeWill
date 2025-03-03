@@ -1,0 +1,89 @@
+.why-free {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 4rem;
+    gap: 4rem;
+    background-color: #fff;
+  }
+  
+  .why-free-content {
+    flex: 2;
+    max-width: 800px;
+  }
+  
+  .why-free h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .why-free p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .make-will-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .make-will-btn:hover {
+    background-color: #d81557;
+  }
+  
+  .benefits-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .benefit-icon {
+    font-size: 1.5rem;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit-text {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  @media (max-width: 1024px) {
+    .why-free {
+      flex-direction: column;
+      padding: 3rem 2rem;
+    }
+  
+    .why-free-content {
+      max-width: 100%;
+    }
+  
+    .benefits-list {
+      width: 100%;
+    }
+  }
