@@ -3,7 +3,7 @@ import './MediaMentions.css';
 
 const MediaMentions = () => {
   const mediaLogos = [
-    { name: 'AARP', src: '/brand1.png' },
+    { name: 'AARP', src: '/brand11.png' },
     { name: 'The New York Times', src: '/brand2.png' },
     { name: 'Yahoo Finance', src: '/brand3.png' },
     { name: 'Forbes', src: '/brand4.png' },
