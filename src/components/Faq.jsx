@@ -1,7 +1,7 @@
 import React from 'react';
-import './FAQ.css';
+import './Faq.css';
 
-const FAQ = () => {
+const Faq = () => {
   const resources = [
     {
       icon: '📄',
@@ -53,4 +53,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;
